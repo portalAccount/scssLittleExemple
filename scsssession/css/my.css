@@ -1,0 +1,40 @@
+header {
+    background-color: white;
+    height: 25vh;
+}
+
+.zone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.zone h3 {
+    font-size: 25px;
+}
+
+.zone .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.zone .container article {
+    border: 1px solid black;
+    margin: 2vh 2vw;
+    padding: 5vh 2vw;
+}
+
+.zone .container .un {
+    border-color: chocolate;
+    border-width: 5px;
+    border-radius: 5%;
+}
+
+/*
+  Could be a discovery option :
+  http://beautifytools.com/scss-compiler.php
+*/
+
+/*# sourceMappingURL=my.css.map */
